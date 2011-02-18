@@ -21,7 +21,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.txt')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
-requires = ['pyramid', 'beaker']
+requires = ['pyramid', 'Beaker']
 
 setup(name='pyramid_beaker',
       version='0.0',
